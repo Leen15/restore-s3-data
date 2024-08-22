@@ -1,7 +1,7 @@
 # Restore S3 Data
 
 Small image based on `amazon/aws-cli:2` used to restore a backup from a specific bucket.
-This image support multiple architecture.
+This image supports multiple architecture with the tag `leen15/restore-se-data:multiarch`.
 It searches for the last backup in a path and download it in a specific local folder.
 The local folder has to be mounted if you want to use the extracted data in a volume.
 
